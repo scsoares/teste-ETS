@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="expeditions.dtd" type="application/xml-dtd"?>
+
+<expeditions>
+
+    <expedition>
+        <idExpedition>12</idExpedition>
+        <date>1998-05-28</date>
+        <type>Research</type>
+        <astronaut>
+            <idAstronaut>1</idAstronaut>
+            <nameAstronaut>Helios Solaris</nameAstronaut>
+            <gender>Non-binary</gender>
+            <age>34</age>
+        </astronaut>
+    </expedition>
+
+    <expedition>
+        <idExpedition>13</idExpedition>
+        <date>1995-01-30</date>
+        <type>Exploration</type>
+        <astronaut>
+            <idAstronaut>5</idAstronaut>
+            <nameAstronaut>Julio Martes</nameAstronaut>
+            <gender>Male</gender>
+            <age>30</age>
+        </astronaut>
+    </expedition>
+
+    <expedition>
+        <idExpedition>14</idExpedition>
+        <date>1989-07-16</date>
+        <type>Exploration</type>
+        <astronaut>
+            <idAstronaut>7</idAstronaut>
+            <nameAstronaut>Neptunia Arduos</nameAstronaut>
+            <gender>Non-binary</gender>
+            <age>25</age>
+        </astronaut>
+    </expedition>
+
+</expeditions>

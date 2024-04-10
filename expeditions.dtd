@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DTD para un documento XML que contiene una lista de expediciones a la estación espacial internacional-->
+
+<!ELEMENT  expeditions (expedition+)>
+
+<!ELEMENT expedition (idExpedition,date,type,astronaut+)>
+
+<!ELEMENT idExpedition (#PCDATA)>
+
+<!ELEMENT date (#PCDATA)>
+
+<!ELEMENT type (#PCDATA)> <!-- Que puede ser INVESTIGACION, COMERCIAL, EXPLORACIÓN, etc...   -->
+
+<!ELEMENT astronaut (idAstronaut,nameAstronaut,gender,age)>
+
+<!ELEMENT idAstronaut (#PCDATA)>
+
+<!ELEMENT nameAstronaut (#PCDATA)> 
+
+<!ELEMENT gender (#PCDATA)> <!-- Puede ser Hombre, Mujer ó No binario  -->
+
+<!ELEMENT age (#PCDATA)>
