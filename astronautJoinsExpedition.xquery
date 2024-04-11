@@ -12,4 +12,4 @@ return
 
     Hola este es un cambio
 
-    Este es otro cambio hecho en el repositorio local
+    Este es otro cambio hecho en el repositorio remoto*
